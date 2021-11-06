@@ -1,0 +1,92 @@
+.links-content a img {
+    height: 45px;
+    width: auto;
+    
+}
+.links-content a img:hover {
+    height:52px;
+    width:auto;
+    
+}
+#madeby{
+    
+    color: cyan;
+    font-size: 0.8rem;
+
+}
+#text{
+    position: relative;
+    top:60px;
+    font-size: 0.8rem;
+
+}
+.navbar-contents {
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    top:30px;
+    
+    
+    
+
+}
+.navbar-contents div {
+    /* margin: 150px; */
+    /* font-size: 0.8rem; */
+    margin: 5px 0px;
+}
+.image{
+    /* width:33%; */
+    /* padding:2/0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-right: 10px black groove; */
+}
+.image img {
+    position: relative;
+    height: 75px;
+    /* left:10vw; */
+
+    border-radius: 50%;
+    
+
+    
+
+}
+.name-container{
+    
+    width:50%;
+    text-align: center;;
+    
+    
+}
+.name{
+    position: relative;
+    
+    left:0px;
+    
+    
+}
+#name{
+    font-size: 1.4rem;
+}
+.bio-container{
+    display: flex;
+    align-items: center;
+    width:75%;
+    justify-content: center;
+    
+}
+   
+.bio{
+    text-align:center;
+    position: relative;
+    right:0px;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    /* line-height: ; */
+}

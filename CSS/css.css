@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url("../CSS/background.jpeg");
+    height: 100%;
+    /*wi */
+}
+
+.navbar {
+    position: relative;
+
+}
+
+.navbar-contents {
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* column-gap: 200px;; */
+    background-color: rgba(0, 0, 0, 0.253);
+    
+    
+
+}
+.navbar-contents div {
+    /* margin: 150px; */
+    /* font-size: 1.5rem; */
+}
+.image{
+    width:33%;
+    /* padding:2/0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-right: 10px black groove; */
+}
+.image img {
+    position: relative;
+    height: 150px;
+    /* left:10vw; */
+
+    border-radius: 50%;
+    
+
+    
+
+}
+.name-container{
+    width:33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;;
+    font-size: 10rem !important;
+    
+}
+.name{
+    position: relative;
+    /* font-size: 100px; */
+    
+    /* width:33%; */
+    left:50px;
+    
+}
+#name{
+    font-size: 3rem;
+}
+.bio-container{
+    display: flex;
+    align-items: center;
+    width: 33%;
+    justify-content: center;
+}
+   
+.bio{
+    text-align:left;
+    position: relative;
+    right:50px;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+.links-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links-content a img {
+    height: 60px;
+    width: auto;
+    margin: 10px;
+    border-radius: 20px; 
+    border:5px rgba(0, 0, 0, 0.425) groove;
+    transition: all 0.2s ease 0s;
+}
+.links-content a img:hover {
+    height:70px;
+    width:auto;
+    
+    
+    
+
+    
+}
+
+.text{
+    display: flex;
+    /* margin:auto; */
+    align-items: center;
+    justify-content: center;
+}
+#text{
+    position: relative;
+    top:60px;
+    font-size: 1.2rem;
+
+}
+
+.madeby{
+    position: relative;
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:70px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+#madeby{
+    
+    color: cyan;
+    font-size: 1.2rem;
+
+}
